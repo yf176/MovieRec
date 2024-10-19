@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h1 class="mb-4">Recommended Movies based on IBUCF</h1>
+        <div class="row">
+            {% for movie in recommended_movies %}
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        {% if movie.pic %}
+                            <img src="{{ movie.pic }}" alt="{{ movie.title }} Image" class="img-thumbnail">
+                        {% endif %}
+                        <div class="card-body">
+                            <h5 class="card-title">{{ movie.title }}</h5>
+                            <p class="card-text">{{ movie.english_title }}</p>
+                            <p class="card-text">Director: {{ movie.director }}</p>
+                            <p class="card-text">Rating: {{ movie.rating }}</p>
+                            <a href="{% url 'movies:movie_detail' movie.id %}">{{ movie.title }}</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

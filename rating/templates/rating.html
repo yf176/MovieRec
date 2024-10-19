@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}rating - My Site{% endblock %}
+
+{% block content %}
+    {% if scores %}
+        <ul>
+        {% for score in scores %}
+            <p>电影: {{ score.0 }}</p>
+            <p>评分:{{score.1}}</p>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No results found.</p>
+    {% endif %}
+{% endblock %}

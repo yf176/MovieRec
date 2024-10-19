@@ -1,0 +1,31 @@
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"] {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.form-group small {
+  font-size: 12px;
+}

@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'user:home' %}">My Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    {% if user.is_authenticated and not user.is_staff %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'user:profile' %}">Profile</a>
+                    </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'user:favourite' %}">favourite</a>
+                    </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'rating:rating' %}">rating</a>
+                    </li>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'rec:recommendations' %}">recommendations</a>
+                    </li>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'rec:IBUCF' %}">IBUCF</a>
+                    </li>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'rec:IBICF' %}">IBICF</a>
+                    </li>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'portrait:analyse' %}">analyse</a>
+                    </li>
+                        <form class="d-flex mx-4 my-auto" action="{% url 'movies:search' %}" method="get">
+    <input class="form-control me-2" type="search" name="query" placeholder="Search Movies" aria-label="Search Movies">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'user:logout' %}?next=/user/logout.html">Logout</a>
+                    </li>
+                        {% elif user.is_staff %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'monitor:add_movie' %}">Add Movie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'monitor:login_records' %}">login records</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'monitor:login_records' %}">review records</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'monitor:comment_records' %}">comment records</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'user:logout' %}?next=/user/logout.html">Logout</a>
+                    </li>
+                        {% endif %}
+
+                    {% if not user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'user:login' %}">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'user:register' %}">Register</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+</body>
+</html>

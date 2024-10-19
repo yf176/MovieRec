@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Search - My Site{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h1 class="mb-4">Search results for "{{ query }}"</h1>
+        {% if movies %}
+            <div class="row">
+            {% for movie in movies %}
+                <div class="col-md-4 mb-4">
+                        <div class="card">
+                            {% if movie.pic %}
+                                <img src="{{ movie.pic }}" alt="{{ movie.title }} Image" class="img-thumbnail">
+                            {% endif %}
+                            <div class="card-body">
+                                <h5 class="card-title">{{ movie.title }}</h5>
+                                <p class="card-text">{{ movie.english_title }}</p>
+                                <p class="card-text">Director: {{ movie.director }}</p>
+                                <p class="card-text">Rating: {{ movie.rating }}</p>
+                                <a href="{% url 'movies:movie_detail' movie.id %}">{{ movie.title }}</a>
+                            </div>
+                        </div>
+                    </div>
+            {% endfor %}
+            </div>
+        {% else %}
+            <p>No results found.</p>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3c0aaeb-25b3-40eb-b927-c4eae51007b5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2MUdaBAMIuKdJw4emV6u0BBpVt7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\remnant\Desktop\movierec\static" />
+      <recent name="C:\Users\remnant\Desktop\movierec" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\remnant\Desktop\movierec\monitor" />
+      <recent name="C:\Users\remnant\Desktop\movierec\movierec" />
+      <recent name="C:\Users\remnant\Desktop\movierec\Spider" />
+      <recent name="C:\Users\remnant\Desktop\movierec\user" />
+      <recent name="C:\Users\remnant\Desktop\movierec\user\templates\registration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.movierec">
+    <configuration name="0001_initial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movierec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rating/migrations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rating/migrations/0001_initial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MySQL (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movierec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/movierec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movierec/MySQL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MySQL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movierec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\remnant\Desktop\movierec\Spider\MySQL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MysqL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movierec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/MysqL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movierec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="movierec" type="Python.DjangoServer" factoryName="Django server">
+      <module name="movierec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="movierec.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.MysqL" />
+        <item itemvalue="Python.0001_initial" />
+        <item itemvalue="Python.MySQL (1)" />
+        <item itemvalue="Python.MySQL" />
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3c0aaeb-25b3-40eb-b927-c4eae51007b5" name="Changes" comment="" />
+      <created>1677826155521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677826155521</updated>
+      <workItem from="1677826204818" duration="4863000" />
+      <workItem from="1677832319929" duration="13745000" />
+      <workItem from="1677850409877" duration="600000" />
+      <workItem from="1677851061351" duration="39000" />
+      <workItem from="1677852328585" duration="529000" />
+      <workItem from="1677904763406" duration="1674000" />
+      <workItem from="1677906465303" duration="807000" />
+      <workItem from="1677907291794" duration="4018000" />
+      <workItem from="1677911358823" duration="3798000" />
+      <workItem from="1677917957114" duration="48000" />
+      <workItem from="1677918887208" duration="7190000" />
+      <workItem from="1678003550186" duration="7993000" />
+      <workItem from="1678082722652" duration="11732000" />
+      <workItem from="1678165769189" duration="4641000" />
+      <workItem from="1678267409218" duration="6000" />
+      <workItem from="1679298122934" duration="697000" />
+      <workItem from="1679377801440" duration="1048000" />
+      <workItem from="1679396751120" duration="894000" />
+      <workItem from="1679836376417" duration="3390000" />
+      <workItem from="1679898168784" duration="2040000" />
+      <workItem from="1679924342197" duration="1954000" />
+      <workItem from="1679983094873" duration="2378000" />
+      <workItem from="1679991386238" duration="394000" />
+      <workItem from="1679991845233" duration="3211000" />
+      <workItem from="1680000882367" duration="423000" />
+      <workItem from="1680077482154" duration="632000" />
+      <workItem from="1680087791542" duration="3033000" />
+      <workItem from="1680094824355" duration="2263000" />
+      <workItem from="1680162600608" duration="6488000" />
+      <workItem from="1680186990379" duration="1633000" />
+      <workItem from="1680239433588" duration="4054000" />
+      <workItem from="1680243593211" duration="1236000" />
+      <workItem from="1680247484655" duration="716000" />
+      <workItem from="1680248352890" duration="2042000" />
+      <workItem from="1680250436409" duration="191000" />
+      <workItem from="1680250643050" duration="992000" />
+      <workItem from="1680252919233" duration="1319000" />
+      <workItem from="1680265588764" duration="4249000" />
+      <workItem from="1680270180008" duration="14000" />
+      <workItem from="1680329405753" duration="8545000" />
+      <workItem from="1680419894371" duration="4222000" />
+      <workItem from="1680441477454" duration="620000" />
+      <workItem from="1680502583755" duration="443000" />
+      <workItem from="1680503227087" duration="15529000" />
+      <workItem from="1680524304261" duration="3776000" />
+      <workItem from="1680587697575" duration="2106000" />
+      <workItem from="1680592168291" duration="3898000" />
+      <workItem from="1680613068424" duration="1437000" />
+      <workItem from="1680685642827" duration="1349000" />
+      <workItem from="1680944612383" duration="1193000" />
+      <workItem from="1681126628018" duration="637000" />
+      <workItem from="1681281842726" duration="87000" />
+      <workItem from="1681284694788" duration="3894000" />
+      <workItem from="1681370638566" duration="4184000" />
+      <workItem from="1681471596924" duration="5616000" />
+      <workItem from="1681911107707" duration="2494000" />
+      <workItem from="1682589103273" duration="732000" />
+      <workItem from="1682675549367" duration="1692000" />
+      <workItem from="1682770013794" duration="1862000" />
+      <workItem from="1682819973927" duration="113000" />
+      <workItem from="1682820098108" duration="3379000" />
+      <workItem from="1682829156220" duration="3728000" />
+      <workItem from="1683012517330" duration="9685000" />
+      <workItem from="1683091010973" duration="7731000" />
+      <workItem from="1683268596096" duration="2747000" />
+      <workItem from="1683351553288" duration="2575000" />
+      <workItem from="1683709678353" duration="637000" />
+      <workItem from="1683717524067" duration="3584000" />
+      <workItem from="1683807824015" duration="796000" />
+      <workItem from="1683808672788" duration="567000" />
+      <workItem from="1683809942403" duration="289000" />
+      <workItem from="1683879021830" duration="605000" />
+      <workItem from="1684241909660" duration="1139000" />
+      <workItem from="1684249171304" duration="1348000" />
+      <workItem from="1684252295793" duration="60000" />
+      <workItem from="1690185920985" duration="6000" />
+      <workItem from="1691047157185" duration="7000" />
+      <workItem from="1691224460331" duration="578000" />
+      <workItem from="1695010542351" duration="28000" />
+      <workItem from="1695010618831" duration="2018000" />
+      <workItem from="1695046431331" duration="341000" />
+      <workItem from="1695046980029" duration="695000" />
+      <workItem from="1697861471825" duration="16000" />
+      <workItem from="1702746787598" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/movierec/asgi.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/movierec$MySQL__1_.coverage" NAME="MySQL (1) Coverage Results" MODIFIED="1680001049424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/movierec" />
+    <SUITE FILE_PATH="coverage/movierec$0001_initial.coverage" NAME="0001_initial Coverage Results" MODIFIED="1680253400126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rating/migrations" />
+    <SUITE FILE_PATH="coverage/movierec$models.coverage" NAME="models Coverage Results" MODIFIED="1679993153859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user" />
+    <SUITE FILE_PATH="coverage/movierec$MysqL.coverage" NAME="MysqL Coverage Results" MODIFIED="1680337838097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/movierec$MySQL.coverage" NAME="MySQL Coverage Results" MODIFIED="1679994375352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+  </component>
+</project>

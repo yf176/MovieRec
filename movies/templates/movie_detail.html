@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="{{ movie.pic }}" alt="{{ movie.title }} Image" class="img-thumbnail">
+      </div>
+      <div class="col-lg-8">
+        <h1>{{ movie.title }}</h1>
+        <p>id: {{ movie.id }}</p>
+        <p>导演: {{ movie.director }}</p>
+        <p>主演:{{ movie.actors }}</p>
+        <p>上映日期: {{ movie.date }}</p>
+        <p>评分: {{ movie.rating }}</p>
+        <p>标签: {{ movie.tag1 }}, {{ movie.tag2 }}, {{ movie.tag3 }}</p>
+        <p>国家/地区: {{ movie.country }}</p>
+        <p>语言: {{ movie.language }}</p>
+        <p>简介: {{ movie.introduction }}</p>
+
+        {% if rating %}
+        <p>你对该电影的评分是：{{ rating }}</p>
+        {% else %}
+        <form method="POST" action="{% url 'movies:rate' movie.id %}">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="score">请给该电影打分（1-10）：</label>
+            <input type="number" class="form-control" id="score" name="score" min="1" max="10" required>
+            <input type="hidden" name="movie_id" value="{{ movie.dataId }}">
+          </div>
+          <input type="submit" class="btn btn-primary" value="提交">
+        </form>
+        {% endif %}
+      {% for comment in comments %}
+        <div class="card my-3">
+            <div class="card-body">
+            <h5 class="card-title">{{ comment.username }}</h5>
+            <p class="card-text">{{ comment.content }}</p>
+            <p class="card-text"><small class="text-muted">{{ comment.created_at|date:"F j, Y, P" }}</small></p>
+            </div>
+        </div>
+        {% empty %}
+            <p>No comments yet.</p>
+      {% endfor %}
+          {% if user.is_authenticated %}
+            <form method="POST" action="">
+                {% csrf_token %}
+                <div class="form-group">
+                 <label for="content">Add a comment:</label>
+            <textarea class="form-control" id="content" name="content" rows="3" required>{{ form.content.value|default:'' }}</textarea>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Submit">
+                </form>
+        {% else %}
+  <p>You must be logged in to post a comment.</p>
+{% endif %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load custom_filters %}
+
+{% block content %}
+  <div class="container mt-4">
+    <h1>Comment Records</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Username</th>
+          <th scope="col">Movie Title</th>
+          <th scope="col">Content</th>
+          <th scope="col">Created At</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for comment, movie in comment_movie_list %}
+          <tr>
+            <th scope="row">{{ forloop.counter }}</th>
+            <td>{{ comment.username }}</td>
+            <td>{{ movie.title }}</td>
+            <td>{{ comment.content }}</td>
+            <td>{{ comment.created_at }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
